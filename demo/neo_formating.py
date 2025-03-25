@@ -65,7 +65,7 @@ def parse_transaction_data(file_path, output_csv):
         else:
             i += 3
 
-        new_line = [date, description, amount_out, amount_in, f"Neo-4811-{description}-%{reward_rate}", reward_rate]
+        new_line = [date, description, amount_out, amount_in, f"Neo-4811 {description} - %{reward_rate}", reward_rate]
         print(new_line)
         transactions.append(new_line)
     
