@@ -1,9 +1,120 @@
-Transaction Date,Transaction Description,Amount Out,Amount In,Neo Transaction Description
-2025-03-23,Verona Pizza and Grill Fischer-Hallman Rd,21.8,,Neo-4811-Verona Pizza and Grill Fischer-Hallman Rd
-2025-03-22,Freshco #9547 Kitchener Can,47.75,,Neo-4811-Freshco #9547 Kitchener Can
-2025-03-22,The Home Depot Pinebush Rd,85.51,,Neo-4811-The Home Depot Pinebush Rd
-2025-03-22,Len's Mill Store Cambr Cambridge Can,86.97,,Neo-4811-Len's Mill Store Cambr Cambridge Can
-2025-03-21,Ls Kinton Ramen Waterl Waterloo Can,41.0,,Neo-4811-Ls Kinton Ramen Waterl Waterloo Can
-2025-03-21,Ouraring Oulu Fin,10.37,,Neo-4811-Ouraring Oulu Fin
-2025-03-20,Google *Google One 650-253-0000 Can,3.15,,Neo-4811-Google *Google One 650-253-0000 Can
-2025-03-16,Chefs Plate 855-420-2327 Can,51.15,,Neo-4811-Chefs Plate 855-420-2327 Can
+Transaction Date,Transaction Description,Amount Out,Amount In,Neo Transaction Description,Reward Rate
+2025-03-24,Payment Received - Thank you,0.0,1105.62,Neo-4811-Payment Received - Thank you-%0,0.0
+2025-03-23,Verona Pizza and Grill Fischer-Hallman Rd,21.8,0.33,Neo-4811-Verona Pizza and Grill Fischer-Hallman Rd-%1.51,1.51
+2025-03-22,Freshco #9547 Kitchener Can,47.75,3.35,Neo-4811-Freshco #9547 Kitchener Can-%7.02,7.02
+2025-03-22,The Home Depot Pinebush Rd,85.51,1.29,Neo-4811-The Home Depot Pinebush Rd-%1.51,1.51
+2025-03-22,Len's Mill Store Cambr Cambridge Can,86.97,1.3,Neo-4811-Len's Mill Store Cambr Cambridge Can-%1.49,1.49
+2025-03-21,Ls Kinton Ramen Waterl Waterloo Can,41.0,0.61,Neo-4811-Ls Kinton Ramen Waterl Waterloo Can-%1.49,1.49
+2025-03-21,Ouraring Oulu Fin,10.37,0.1,Neo-4811-Ouraring Oulu Fin-%0.96,0.96
+2025-03-20,Google *Google One 650-253-0000 Can,3.15,0.03,Neo-4811-Google *Google One 650-253-0000 Can-%0.95,0.95
+2025-03-16,Chefs Plate 855-420-2327 Can,51.15,0.51,Neo-4811-Chefs Plate 855-420-2327 Can-%1.0,1.0
+2025-03-15,Score Pizza King St S,3.96,4.06,Neo-4811-Score Pizza King St S-%102.53,102.53
+2025-03-15,Score Pizza King St S,48.6,0.73,Neo-4811-Score Pizza King St S-%1.5,1.5
+2025-03-15,Dollarama Ottawa St S,6.93,0.1,Neo-4811-Dollarama Ottawa St S-%1.44,1.44
+2025-03-14,Walmart Ottawa St S,5.01,0.35,Neo-4811-Walmart Ottawa St S-%6.99,6.99
+2025-03-13,Rmow Grt (Tvm) Kitchener Can,7.5,0.12,Neo-4811-Rmow Grt (Tvm) Kitchener Can-%1.6,1.6
+2025-03-13,Sweet Dreams Teashop University Ave W,13.79,0.21,Neo-4811-Sweet Dreams Teashop University Ave W-%1.52,1.52
+2025-03-11,Payment Received - Thank you,0.0,500.0,Neo-4811-Payment Received - Thank you-%1.52,1.52
+2025-03-10,Payment Received - Thank you,0.0,1000.0,Neo-4811-Payment Received - Thank you-%1.52,1.52
+2025-03-09,Chefs Plate 855-420-2327 Can,5.0,0.05,Neo-4811-Chefs Plate 855-420-2327 Can-%1.0,1.0
+2025-03-09,Chefs Plate 855-420-2327 Can,1.98,0.02,Neo-4811-Chefs Plate 855-420-2327 Can-%1.01,1.01
+2025-03-09,Chefs Plate 855-420-2327 Can,48.76,0.49,Neo-4811-Chefs Plate 855-420-2327 Can-%1.0,1.0
+2025-03-08,Hub/36537h Waterloo Can,6.07,0.09,Neo-4811-Hub/36537h Waterloo Can-%1.48,1.48
+2025-03-08,Torprkaut Toronto Can,11.0,0.17,Neo-4811-Torprkaut Toronto Can-%1.55,1.55
+2025-03-08,Scotiabank Arena Con Toronto Can,16.1,0.24,Neo-4811-Scotiabank Arena Con Toronto Can-%1.49,1.49
+2025-03-08,Scotiabank Arena Con Toronto Can,32.21,0.48,Neo-4811-Scotiabank Arena Con Toronto Can-%1.49,1.49
+2025-03-08,Sq *Propeller Coffee C North York Can,4.8,0.07,Neo-4811-Sq *Propeller Coffee C North York Can-%1.46,1.46
+2025-03-08,Hub/33311hf Waterloo Can,6.07,0.09,Neo-4811-Hub/33311hf Waterloo Can-%1.48,1.48
+2025-03-08,Hub/33311h Waterloo Can,6.07,0.09,Neo-4811-Hub/33311h Waterloo Can-%1.48,1.48
+2025-03-07,Real Canadian Superstore Highland Rd W,32.98,2.31,Neo-4811-Real Canadian Superstore Highland Rd W-%7.0,7.0
+2025-03-07,Pixlr - pixlr.com pixlr.com Sgp,14.81,0.15,Neo-4811-Pixlr - pixlr.com pixlr.com Sgp-%1.01,1.01
+2025-03-06,Costco Gasoline Erb St W,39.69,1.98,Neo-4811-Costco Gasoline Erb St W-%4.99,4.99
+2025-03-06,Winners Ottawa St S,31.64,0.48,Neo-4811-Winners Ottawa St S-%1.52,1.52
+2025-03-06,Pita Pit Ottawa St S,15.36,0.23,Neo-4811-Pita Pit Ottawa St S-%1.5,1.5
+2025-03-06,Neo Perks Payment,1.67,0.0,Neo-4811-Neo Perks Payment-%1.5,1.5
+2025-03-04,McMullan's Highland Rd W,52.0,0.78,Neo-4811-McMullan's Highland Rd W-%1.5,1.5
+2025-03-04,Hub/37098hf Waterloo Can,6.07,0.09,Neo-4811-Hub/37098hf Waterloo Can-%1.48,1.48
+2025-03-04,Hub/37098h Waterloo Can,6.07,0.09,Neo-4811-Hub/37098h Waterloo Can-%1.48,1.48
+2025-03-03,S&y Insurance Company Markham Can,80.92,0.81,Neo-4811-S&y Insurance Company Markham Can-%1.0,1.0
+2025-03-03,S&y Insurance Company Markham Can,337.91,14.98,Neo-4811-S&y Insurance Company Markham Can-%4.43,4.43
+2025-03-03,Riotmodels 3104379763 Usa,42.8,0.64,Neo-4811-Riotmodels 3104379763 Usa-%1.5,1.5
+2025-03-02,Bulk Barn #465 Kitchener Can,19.95,0.3,Neo-4811-Bulk Barn #465 Kitchener Can-%1.5,1.5
+2025-03-02,Fido Online,66.67,3.0,Neo-4811-Fido Online-%4.5,4.5
+2025-03-02,Chefs Plate 855-420-2327 Can,6.0,0.27,Neo-4811-Chefs Plate 855-420-2327 Can-%4.5,4.5
+2025-03-02,Chefs Plate 855-420-2327 Can,46.36,2.08,Neo-4811-Chefs Plate 855-420-2327 Can-%4.49,4.49
+2025-03-01,Sobeys ON,42.17,2.95,Neo-4811-Sobeys ON-%7.0,7.0
+2025-03-01,Stubhub Canada Ltd Toronto Can,248.37,3.72,Neo-4811-Stubhub Canada Ltd Toronto Can-%1.5,1.5
+2025-03-01,Reward Cashed Out,0.0,92.87,Neo-4811-Reward Cashed Out-%1.5,1.5
+2025-03-01,Neo Perks Payment,9.99,0.0,Neo-4811-Neo Perks Payment-%1.5,1.5
+2025-03-01,Coextro +18885529516 Can,49.66,2.24,Neo-4811-Coextro +18885529516 Can-%4.51,4.51
+2025-02-28,Tst-Nev Turkish Cuisin Waterloo Can,74.0,1.11,Neo-4811-Tst-Nev Turkish Cuisin Waterloo Can-%1.5,1.5
+2025-02-28,Ticketscene 888-403- Kitchener Can,51.38,0.51,Neo-4811-Ticketscene 888-403- Kitchener Can-%0.99,0.99
+2025-02-26,Spotify Online,14.34,0.64,Neo-4811-Spotify Online-%4.46,4.46
+2025-02-26,Steam Games Online,11.92,0.12,Neo-4811-Steam Games Online-%1.01,1.01
+2025-02-25,Pita Pit Ottawa St S,11.29,2.56,Neo-4811-Pita Pit Ottawa St S-%22.67,22.67
+2025-02-24,Payment Received - Thank you,0.0,1581.13,Neo-4811-Payment Received - Thank you-%22.67,22.67
+2025-02-22,Costco Erb St W,106.32,1.06,Neo-4811-Costco Erb St W-%1.0,1.0
+2025-02-21,Circle K Gas Victoria St N Shell,129.65,6.48,Neo-4811-Circle K Gas Victoria St N Shell-%5.0,5.0
+2025-02-21,Porsche Centre Kitchen Kitchener Can,1057.42,12.94,Neo-4811-Porsche Centre Kitchen Kitchener Can-%1.22,1.22
+2025-02-21,Ouraring Oulu Fin,10.26,0.46,Neo-4811-Ouraring Oulu Fin-%4.48,4.48
+2025-02-18,Algonquin Outfitters Manitoba St,16.95,1.61,Neo-4811-Algonquin Outfitters Manitoba St-%9.5,9.5
+2025-02-17,Windermere House Musko Windermere Can,109.0,1.63,Neo-4811-Windermere House Musko Windermere Can-%1.5,1.5
+2025-02-17,Mecp-Ontpark-Int-Reser Orillia Can,21.0,0.31,Neo-4811-Mecp-Ontpark-Int-Reser Orillia Can-%1.48,1.48
+2025-02-16,Windermere House Windermere Can,464.19,6.96,Neo-4811-Windermere House Windermere Can-%1.5,1.5
+2025-02-16,Shoppers Drug Mart Canada,34.2,0.51,Neo-4811-Shoppers Drug Mart Canada-%1.49,1.49
+2025-02-16,Spoon & Fork Park Place Blvd,53.74,0.81,Neo-4811-Spoon & Fork Park Place Blvd-%1.51,1.51
+2025-02-16,Chefs Plate 855-420-2327 Can,43.96,1.98,Neo-4811-Chefs Plate 855-420-2327 Can-%4.5,4.5
+2025-02-15,Walmart Ottawa St S,28.29,1.98,Neo-4811-Walmart Ottawa St S-%7.0,7.0
+2025-02-15,Neo Perks Payment,5.0,0.0,Neo-4811-Neo Perks Payment-%7.0,7.0
+2025-02-14,Uw Parking Waterloo Can,2.99,0.03,Neo-4811-Uw Parking Waterloo Can-%1.0,1.0
+2025-02-14,Pita Pit Ottawa St S,13.59,0.14,Neo-4811-Pita Pit Ottawa St S-%1.03,1.03
+2025-02-14,Winners Ottawa St S,45.19,0.45,Neo-4811-Winners Ottawa St S-%1.0,1.0
+2025-02-14,Forest of Flowers Kitchener Can,29.38,0.29,Neo-4811-Forest of Flowers Kitchener Can-%0.99,0.99
+2025-02-13,Uw Athletics Tickets Waterloo Can,18.0,0.18,Neo-4811-Uw Athletics Tickets Waterloo Can-%1.0,1.0
+2025-02-12,Jeff Diefenbacher Dent Kitchener Can,321.0,3.21,Neo-4811-Jeff Diefenbacher Dent Kitchener Can-%1.0,1.0
+2025-02-11,Payment Received - Thank you,0.0,1000.0,Neo-4811-Payment Received - Thank you-%1.0,1.0
+2025-02-10,Payment Received - Thank you,0.0,1000.0,Neo-4811-Payment Received - Thank you-%1.0,1.0
+2025-02-09,Sobeys ON,40.23,2.01,Neo-4811-Sobeys ON-%5.0,5.0
+2025-02-09,Big Orange Waterloo Waterloo Can,4.99,0.05,Neo-4811-Big Orange Waterloo Waterloo Can-%1.0,1.0
+2025-02-09,Sport Chek King St N,45.19,0.45,Neo-4811-Sport Chek King St N-%1.0,1.0
+2025-02-09,Chefs Plate 855-420-2327 Can,43.95,1.76,Neo-4811-Chefs Plate 855-420-2327 Can-%4.0,4.0
+2025-02-08,The Beer Store #4164 Waterloo Can,45.94,0.46,Neo-4811-The Beer Store #4164 Waterloo Can-%1.0,1.0
+2025-02-07,Shell Highland Rd W,110.46,3.31,Neo-4811-Shell Highland Rd W-%3.0,3.0
+2025-02-06,Winners Ottawa St S,38.42,0.38,Neo-4811-Winners Ottawa St S-%0.99,0.99
+2025-02-06,Payment Received - Thank you,0.0,500.0,Neo-4811-Payment Received - Thank you-%0.99,0.99
+2025-02-05,Airbnb * Hmeknysf2q London Gbr,541.18,5.41,Neo-4811-Airbnb * Hmeknysf2q London Gbr-%1.0,1.0
+2025-02-05,Pepis Pizza King Kitchener Can,23.55,0.24,Neo-4811-Pepis Pizza King Kitchener Can-%1.02,1.02
+2025-02-05,Freshco #9547 Kitchener Can,0.0,11.92,Neo-4811-Freshco #9547 Kitchener Can-%1.02,1.02
+2025-02-05,Freshco #9547 Kitchener Can,39.25,1.96,Neo-4811-Freshco #9547 Kitchener Can-%4.99,4.99
+2025-02-04,Green Party Ont Toronto Can,25.0,0.25,Neo-4811-Green Party Ont Toronto Can-%1.0,1.0
+2025-02-03,bingemans.com +15197441555 Can,631.1,6.31,Neo-4811-bingemans.com +15197441555 Can-%1.0,1.0
+2025-02-02,Chefs Plate 855-420-2327 Can,26.97,1.08,Neo-4811-Chefs Plate 855-420-2327 Can-%4.0,4.0
+2025-02-01,Foundry Tavern Cambridge Can,103.0,1.03,Neo-4811-Foundry Tavern Cambridge Can-%1.0,1.0
+2025-02-01,Ticketmaster Online,271.32,2.71,Neo-4811-Ticketmaster Online-%1.0,1.0
+2025-02-01,Reward Cashed Out,0.0,3.09,Neo-4811-Reward Cashed Out-%1.0,1.0
+2025-01-31,Pita Pit Ottawa St S,13.59,1.23,Neo-4811-Pita Pit Ottawa St S-%9.05,9.05
+2025-01-30,Shell Highland Rd W,50.01,1.5,Neo-4811-Shell Highland Rd W-%3.0,3.0
+2025-01-30,BarNaan Ottawa St S B8,8.99,0.09,Neo-4811-BarNaan Ottawa St S B8-%1.0,1.0
+2025-01-30,Fido Online,77.97,3.12,Neo-4811-Fido Online-%4.0,4.0
+2025-01-29,Sp Lightburn Softwar +14156828710 Usa,145.0,1.45,Neo-4811-Sp Lightburn Softwar +14156828710 Usa-%1.0,1.0
+2025-01-17,Airalo +6583029360 Sgp,10.5,0.1,Neo-4811-Airalo +6583029360 Sgp-%0.95,0.95
+2025-01-17,Lime*ride +18885463345 Usa,17.55,0.7,Neo-4811-Lime*ride +18885463345 Usa-%3.99,3.99
+2025-01-17,Tst*cypress Street Pin Atlanta Usa,44.7,0.45,Neo-4811-Tst*cypress Street Pin Atlanta Usa-%1.01,1.01
+2025-01-17,At *Atl Botanical Grdn Atlanta Usa,43.14,0.43,Neo-4811-At *Atl Botanical Grdn Atlanta Usa-%1.0,1.0
+2025-01-17,Lime*auth +18885463345 Usa,6.4,0.26,Neo-4811-Lime*auth +18885463345 Usa-%4.06,4.06
+2025-01-17,The Gt Buffalo Bayou Atlanta Usa,10.38,0.1,Neo-4811-The Gt Buffalo Bayou Atlanta Usa-%0.96,0.96
+2025-01-16,Georgiaaquariumecom Atlanta Usa,89.68,0.9,Neo-4811-Georgiaaquariumecom Atlanta Usa-%1.0,1.0
+2025-01-16,Usps Po 1204600065 Atlanta Usa,1.08,0.01,Neo-4811-Usps Po 1204600065 Atlanta Usa-%0.93,0.93
+2025-01-15,Tst*minero - Atl Atlanta Usa,10.09,0.1,Neo-4811-Tst*minero - Atl Atlanta Usa-%0.99,0.99
+2025-01-15,H and F Burger Hops Ch Atlanta Usa,24.17,0.24,Neo-4811-H and F Burger Hops Ch Atlanta Usa-%0.99,0.99
+2025-01-15,Airalo +6583029360 Sgp,10.5,0.1,Neo-4811-Airalo +6583029360 Sgp-%0.95,0.95
+2025-01-14,Lime*ride San Francisco Usa,21.43,0.86,Neo-4811-Lime*ride San Francisco Usa-%4.01,4.01
+2025-01-13,bingemans.com +15197441555 Can,631.1,6.31,Neo-4811-bingemans.com +15197441555 Can-%1.0,1.0
+2025-01-13,Cvs/pharmacy #02943 Atlanta Usa,25.26,0.25,Neo-4811-Cvs/pharmacy #02943 Atlanta Usa-%0.99,0.99
+2025-01-12,Publix #1061 Atlanta Usa,2.9,0.14,Neo-4811-Publix #1061 Atlanta Usa-%4.83,4.83
+2025-01-12,B&nbkstrgeorgiatech225 Atlanta Usa,4.31,0.04,Neo-4811-B&nbkstrgeorgiatech225 Atlanta Usa-%0.93,0.93
+2025-01-12,en.dragonpass.com.cn Manchester Gbr,47.62,1.9,Neo-4811-en.dragonpass.com.cn Manchester Gbr-%3.99,3.99
+2025-01-11,Airalo +6583029360 Sgp,10.5,0.1,Neo-4811-Airalo +6583029360 Sgp-%0.95,0.95
+2025-01-08,Air Can* aircanada.com Can,139.72,1.4,Neo-4811-Air Can* aircanada.com Can-%1.0,1.0
+2025-01-07,Fbhs Globalplumbinggrp 800-465-6130 Can,131.19,1.31,Neo-4811-Fbhs Globalplumbinggrp 800-465-6130 Can-%1.0,1.0
+2025-01-06,Membership Fee,125.0,0.0,Neo-4811-Membership Fee-%1.0,1.0
