@@ -36,6 +36,7 @@ def parse_transaction_data(file_path, output_csv):
                 amount_in = float(amount.replace('$', '').replace(',', ''))
         else:
             if lines[i+2].strip() == "Pending":
+                print(f"Skipping pending transaction: {description}")
                 i = i + 1
                 break
             no_rewards = False
@@ -51,12 +52,6 @@ def parse_transaction_data(file_path, output_csv):
 
         # Reformat the date to "2025-03-03"
         date = datetime.strptime(date_str, "%b %d").replace(year=2025).strftime("%Y-%m-%d")
-
-        # # Check if it's pending
-        # if 'Pending' in date:
-        #     description += ' (Pending)'
-        #     date = lines[i].strip()
-        #     i += 1
 
         if not no_rewards:
             try:
