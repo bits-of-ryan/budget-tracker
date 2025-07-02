@@ -4,6 +4,8 @@ import sys
 import os
 from datetime import datetime
 
+   
+
 def parse_transaction_data(file_path, output_csv):
     with open(file_path, 'r', encoding='utf-8') as file:
         lines = file.readlines()
@@ -21,11 +23,14 @@ def parse_transaction_data(file_path, output_csv):
         
         # Read description
         description = lines[i].strip()
+        print(f"Processing transaction: {description}")
+        
         if description == "Reward Cashed Out" or description == "Neo Perks Payment" \
             or description == "Payment Received - Thank you" or description == "Membership Fee":
+        # If Rewards Cashed Out or Neo Perks Payment
             no_rewards = True
-            date_str = lines[i+1].strip()
-            amount = lines[i+2].strip()
+            date_str = lines[i+2].strip()
+            amount = lines[i+4].strip()
 
             # Identify if it's an incoming or outgoing amount
             if amount.startswith('-$'):
@@ -35,23 +40,30 @@ def parse_transaction_data(file_path, output_csv):
                 amount_out = 0
                 amount_in = float(amount.replace('$', '').replace(',', ''))
         else:
-            if lines[i+2].strip() == "Pending":
-                print(f"Skipping pending transaction: {description}")
-                i = i + 1
-                break
             no_rewards = False
-            date_str = lines[i+1].strip()
-            if lines[i+2].strip().startswith('-$'):
-                amount_out = float(lines[i+2].strip().replace('-$', '').replace(',', ''))
-                amount_in = float(lines[i+3].strip().replace('$', '').replace(',', ''))
+
+            # Check if pending transaction
+            if lines[i+4].strip() != "Pending":
+                date_str = lines[i+2].strip()
+            else:
+                date_str = lines[i+2].strip()[:-2]
+                i = i + 2
+
+            if lines[i+4].strip().startswith('-$'):
+                amount_out = float(lines[i+4].strip().replace('-$', '').replace(',', ''))
+                amount_in = float(lines[i+6].strip().replace('$', '').replace(',', ''))
             else:
                 # The transaction is a refund
                 amount_out = 0
-                amount_in = float(lines[i+2].strip().replace('$', '').replace(',', ''))
+                amount_in = float(lines[i+3].strip().replace('$', '').replace(',', ''))
                 no_rewards = True
 
+
         # Reformat the date to "2025-03-03"
-        date = datetime.strptime(date_str, "%b %d").replace(year=2025).strftime("%Y-%m-%d")
+        try:
+            date = datetime.strptime(date_str, "%b %d").replace(year=2025).strftime("%Y-%m-%d")
+        except ValueError:
+            print(f"Error parsing date: {date_str}. Skipping transaction.")
 
         if not no_rewards:
             try:
@@ -59,9 +71,9 @@ def parse_transaction_data(file_path, output_csv):
                 reward_rate = round(reward_rate, 2)
             except ZeroDivisionError:
                 reward_rate = 0
-            i += 4
+            i += 7
         else:
-            i += 3
+            i += 5
 
         new_line = [date, description, amount_out, amount_in, f"Neo-4811 {description} - {reward_rate}%", reward_rate]
         print(new_line)
