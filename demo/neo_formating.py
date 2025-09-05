@@ -55,7 +55,7 @@ def parse_transaction_data(file_path, output_csv):
             else:
                 # The transaction is a refund
                 amount_out = 0
-                amount_in = float(lines[i+3].strip().replace('$', '').replace(',', ''))
+                amount_in = float(lines[i+4].strip().replace('$', '').replace(',', ''))
                 no_rewards = True
 
 
@@ -71,10 +71,15 @@ def parse_transaction_data(file_path, output_csv):
                 reward_rate = round(reward_rate, 2)
             except ZeroDivisionError:
                 reward_rate = 0
+            amount_in = 0
             i += 7
         else:
             i += 5
 
+        if amount_in == 0:
+            amount_in = ""
+        if amount_out == 0:
+            amount_out = ""
         new_line = [date, description, amount_out, amount_in, f"Neo-4811 {description} - {reward_rate}%", reward_rate]
         print(new_line)
         transactions.append(new_line)
